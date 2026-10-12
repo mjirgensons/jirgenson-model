@@ -6,13 +6,12 @@ Companion files to the book by Martin Jirgenson "Stop Guessing. Managing busines
 
 ## Files
 
-- `jirgenson_canon_v1.0.txt`: the canon of the model (Appendix H of the book). A compact rulebook of the model in English, sections §0 to §16, canon-id JMC-1. One canon for all language editions; the Russian names of the terms are given in brackets.
-- `jirgenson_prompt_ru_v1.0.txt`: the operating prompt for the Russian edition (Appendix I of the book). It tells the assistant how to work with the canon; the assistant replies in the user's language.
-- `jirgenson_prompt_en_v1.0.txt`: the operating prompt for the English edition (to be published with the English edition).
+- `jirgenson_canon_v1.0.txt`: the canon of the model (Appendix H of the book). A compact rulebook of the model in English, sections §0 to §16, canon-id JMC-1. One canon for all language editions; the Russian names of the terms are given in brackets so that answers in Russian use the same words as the book.
+- `jirgenson_prompt_v1.0.txt`: the operating prompt (Appendix I of the book). It tells the assistant how to work with the canon. One prompt for all language editions: it is written in English, and the assistant replies in the language you write in.
 
 ## How to use
 
-1. Download the canon and the prompt for your language (Download or Raw, then save).
+1. Download both files (Download or Raw, then save).
 2. Open a new conversation with a language model (an assistant).
 3. Attach the canon file to the message or paste its full text.
 4. Send the prompt as your first message.
