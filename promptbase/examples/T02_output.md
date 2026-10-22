@@ -1,13 +1,23 @@
-Today: pay the €1,000 deposit, get the repair date (day after tomorrow) confirmed in writing, and send that confirmation to the inspector today, asking whether a booked repair inside the 72 hours keeps your permit. It is the only step that keeps the truck legal.
+Today, first: call the repairer, get written agreement that the €1,400 balance is paid on day 6, after the wedding money lands, then pay the €1,000 deposit. That locks the only slot inside your 72 hours.
 
-Also today, before you serve anything: food held at 9°C can make people ill. Check which of the €600 stock is still safe by the food-safety rules you work under; move the rest to a borrowed or rented chiller or throw it out. I am assuming most of it can be saved if moved today.
+Before you serve anything: food held at 9°C is a danger to your customers and your permit. Put what can be saved on ice or in a borrowed fridge; write off the rest.
 
-The greatest danger: wages in 4 days. After the deposit you have €900. If the €1,400 balance is due on repair day, you are €500 below zero before wages and €1,700 below after them, until the €1,500 wedding deposit arrives a day later, and that still leaves €200 short. So today also ask the repairer, in writing, to take the balance in 5 days, after the wedding money. If they refuse, talk to your two part-timers today: half the wages on time, the rest a week later.
+Where you are
 
-What we protect first: your permit and the people who eat your food, then your two part-timers, then the stock.
+Account €1,900; after the deposit €900. Due within 5 days: €1,400 balance plus €1,200 wages, €2,600 in all. Coming in: €1,500 on day 5. Even then you are €200 short, and wages fall before the money arrives.
 
-Not today: no high-interest loan, no selling the truck or equipment, no cancelling the wedding.
+The greatest danger
 
-Check: tomorrow at 12:00. Deposit paid, repair date in writing, inspector's answer, stock safe.
+Permit suspension the day after tomorrow if the repair does not happen; income and the wedding job stop together. Second: wages, day 4.
 
-Two questions: can you trade until the repair, and roughly what does a day bring in? Is the €1,400 balance due on repair day or later?
+Protect, in my proposed order (change it if yours differs): customers' safety and the permit; your two part-timers; the wedding booking; the €600 stock last.
+
+This week
+
+Tell the part-timers today that wages come on day 5, or pay what the €900 allows on day 4. Ask the wedding client to pay earlier. Do not take a loan, sell warm stock or cancel the wedding today.
+
+Two forecasts. Deposit paid, nothing else: balance unpaid, repair stalls, permit suspended, wages short €300. Plan works: day 5 you hold €2,400 against €2,600; the €200 gap closes with sales or saved stock. I assume near-zero sales this week.
+
+Check tomorrow morning: the repairer's written confirmation; after the repair, the fridge at 4°C or lower.
+
+Can the truck trade this week? Could the wedding client pay before day 5?
