@@ -1,17 +1,11 @@
-# The Jirgenson Model: canon and operating prompt for a digital assistant
+# The Jirgenson Model: canon and operating prompt
 
-English · [Русский](README.ru.md)
-
-Companion files to the book by Martin Jirgenson "Steer, Don't Guess. Setting Priorities, Reading the Numbers and Correcting Course in Business and Life. The Jirgenson Model" (English edition, 2026; first edition in Russian, 2026).
+Companion files to the book by Martin Jirgenson, *Steer, Don't Guess. Setting Priorities, Reading the Numbers and Correcting Course in Business and Life. The Jirgenson Model* (English edition 1.1, 2026).
 
 ## Files
 
-English edition:
-
-- `jirgenson_canon_v1.0_en.txt`: the canon of the model (Appendix H of the book). A compact rulebook of the model in English, sections §0 to §16, canon-id JMC-1.
-- `jirgenson_prompt_v1.1_en.txt`: the operating prompt (Appendix I of the book, edition 1.1). It tells the assistant how to work with the canon. It is written in English, and the assistant replies in the language you write in. Readers of edition 1.0 of the book: `jirgenson_prompt_v1.0_en.txt` is kept, but v1.1 is recommended.
-
-Russian edition: `jirgenson_canon_v1.0.txt` and `jirgenson_prompt_v1.0.txt` (see [README.ru.md](README.ru.md)).
+- `jirgenson_canon_v1.0_en.txt`: the canon of the model (Appendix H of the book). A compact rulebook, sections §0 to §16, canon-id JMC-1.
+- `jirgenson_prompt_v1.1_en.txt`: the operating prompt (Appendix I of the book, edition 1.1). It tells the assistant how to work with the canon. It is written in English; the assistant replies in the language you write in.
 
 ## How to use
 
@@ -25,8 +19,8 @@ Without the canon the assistant will not start and will ask for it: this is by d
 
 ## Versions
 
-English edition: canon v1.0 and prompt v1.1 (edition 1.1 of the book, 18 October 2026; tested in Appendix J). Version 1.0, October 2026: the `_en` files match the English edition, the files without a suffix match the first Russian edition; the model, the section numbering and the canon-id are the same in both. Updates appear here under a new version number; each file states its version on its first line. See `CHANGELOG.md`.
+Canon v1.0 and prompt v1.1 (edition 1.1 of the book, 18 October 2026; tested in Appendix J). Updates appear here under a new version number; each file states its version on its first line.
 
-## Rights
+## Licence
 
-© Martin Jirgenson, 2026. The files may be used freely to work with the model for personal and business purposes. Publication, translation and inclusion in other products require the author's written permission.
+CC BY-ND 4.0, see `LICENSE`. © Martin Jirgenson, 2026. This is not financial, legal or investment advice.
