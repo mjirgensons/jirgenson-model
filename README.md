@@ -21,6 +21,10 @@ Without the canon the assistant will not start and will ask for it: this is by d
 
 Canon v1.0 and prompt v1.1 (edition 1.1 of the book, 18 October 2026; tested in Appendix J). Updates appear here under a new version number; each file states its version on its first line.
 
+## Experiment
+
+`experiments/E5-blind-test-2026-10/` holds a blind test of the operating prompt on ten small-business crisis scenarios: the scenarios and answer key, the exact prompt as tested, every raw answer, every judge record, the scores, the scripts and the limits. Start with `STUDY.md` in that folder. The prompt tested there (v1.3-c) differs from the published v1.1 in three places only, listed in `STUDY.md`.
+
 ## Licence
 
 CC BY-ND 4.0, see `LICENSE`. © Martin Jirgenson, 2026. This is not financial, legal or investment advice.
