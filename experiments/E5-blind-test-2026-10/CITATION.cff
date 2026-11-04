@@ -30,6 +30,6 @@ references:
     authors:
       - family-names: Jirgenson
         given-names: Martin
-      orcid: "https://orcid.org/0009-0001-3034-3552"
+        orcid: "https://orcid.org/0009-0001-3034-3552"
     year: 2026
     isbn: "979-8-1648-3374-9"

@@ -7,7 +7,7 @@ Companion files to the book by Martin Jirgenson, *Steer, Don't Guess. Setting Pr
 - **The book:** [Steer, Don't Guess on Amazon](https://www.amazon.com/dp/B0HPBR6BNX) (Kindle, paperback, hardcover). [Read Chapter 1 free](https://mjirgensons.github.io/blog/free-sample/).
 - **The site:** [mjirgensons.github.io](https://mjirgensons.github.io/), with articles that apply the model to real situations, for example [levers of control](https://mjirgensons.github.io/blog/levers-of-control/), [backward planning](https://mjirgensons.github.io/blog/backward-planning/) and [how to prevent AI hallucinations](https://mjirgensons.github.io/blog/how-to-prevent-ai-hallucinations/).
 - **What the model is:** [The Jirgenson Model, a management method for small business](https://mjirgensons.github.io/blog/jirgenson-model-management-method/).
-- **The author:** [Martin Jirgenson](https://mjirgensons.github.io/author/) on [Goodreads](https://www.goodreads.com/author/show/73234443.Martin_Jirgenson) and [LinkedIn](https://www.linkedin.com/in/martin-jirgenson-3098609a/).
+- **The author:** [Martin Jirgenson](https://mjirgensons.github.io/author/) on [Goodreads](https://www.goodreads.com/author/show/73234443.Martin_Jirgenson) and [LinkedIn](https://www.linkedin.com/in/martin-jirgenson-3098609a/); ORCID [0009-0001-3034-3552](https://orcid.org/0009-0001-3034-3552).
 
 ## Files
 
