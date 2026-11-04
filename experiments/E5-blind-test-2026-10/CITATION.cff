@@ -8,6 +8,7 @@ date-released: 2026-11-04
 authors:
   - family-names: Jirgenson
     given-names: Martin
+    orcid: "https://orcid.org/0009-0001-3034-3552"
     website: "https://mjirgensons.github.io/"
 repository: "https://github.com/mjirgensons/jirgenson-model"
 url: "https://mjirgensons.github.io/"
@@ -29,5 +30,6 @@ references:
     authors:
       - family-names: Jirgenson
         given-names: Martin
+      orcid: "https://orcid.org/0009-0001-3034-3552"
     year: 2026
     isbn: "979-8-1648-3374-9"
