@@ -28,8 +28,8 @@ INTERNAL = [r"§\s*\d", r"\bEMERGENCY\b", r"\bQUICK\b", r"\bFULL\b", r"\bMODE\s*
             r"according to the model", r"outside the model", r"\bJMC-1\b", r"\bself.check\b", r"\bP[1-6]\b(?=\s|:)", r"\b[RL]\d{1,2}\b(?=[:\s])"]
 JARGON = [r"\bparameters?\b", r"\bvectors?\b", r"\bzones?\b", r"\blevers?\b", r"\bman(o|oe)uvres?\b", r"\bKPIs?\b", r"\brefusal order\b",
           r"\bgoal vector\b", r"\berror vector\b"]
-LV_CHARS = "āčēģīķļņšūž"
-RU_RE = re.compile(r"[Ѐ-ӿ]")
+LV_CHARS = "\u0101\u010d\u0113\u0123\u012b\u0137\u013c\u0146\u0161\u016b\u017e"  # Latvian lower-case letters with diacritics
+RU_RE = re.compile(r"[\u0400-\u04ff]")  # Cyrillic block U+0400..U+04FF
 
 
 def word_count(t):

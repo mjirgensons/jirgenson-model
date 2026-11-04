@@ -1,0 +1,40 @@
+keys example ['task_id', 'judge_notes_key_numbers', 'responses', 'preference']
+T01 n 18 miss {}
+T02 n 18 miss {'M4': 6}
+T03 n 18 miss {'M1': 4}
+T04 n 18 miss {'M7': 18}
+T05 n 18 miss {}
+T06 n 18 miss {'M4': 1}
+T07 n 18 miss {}
+T08 n 18 miss {'M3': 4, 'M4': 4, 'M1': 4}
+T09 n 18 miss {'M5': 10, 'M7': 3, 'M3': 1}
+T10 n 18 miss {'M6': 3, 'M4': 1}
+
+INVENTED
+T03 [it3 T03_C-v1.3-c-r1_vs_A-r1_21.md] Unhedged rule of thumb 'three to five [goals] are enough for a year' (minor, does not change the advice)
+T04 [it3 T04_C-v1.3-c-r3_vs_A-r3_21.md] EUR 1,950 a month 'cannot carry an employee' stated as fact although costs and salary are not given
+T04 [it3 T04_C-v1.3-c-r3_vs_C-v1.1-c-r3_12.md] '€1,950 a month cannot carry an employee' stated as fact although employee pay and cost base are not given
+T04 [additional run T04 C-v1.3-c r3 order 12] Unlabelled claim that ~EUR 1,950/month 'cannot carry an employee' although costs are unknown (minor)
+T04 [additional run T04 C-v1.3-c r3 order 21] '€1,950 a month cannot carry an employee' stated as fact without known costs (unlabelled assumption)
+T07 [it3 T07_C-v1.3-c-r2_vs_A-r2_12.md] Borderline: 'one more evening fixes it' implies at least EUR 10 per babysitting evening, not given in the task and not labelled
+T08 [it3 T08_C-v1.3-c-r3_vs_A-r3_12.md] Unlabelled assumption that stopping work for the biggest customer would not reduce costs (materials would partly fall)
+T08 [it3 T08_C-v1.3-c-r3_vs_A-r3_21.md] 'your costs would not fall' if work for the big customer stopped, stated as fact (materials would fall; minor unlabelled assumption)
+T08 [it3 T08_C-v1.3-c-r3_vs_C-v1.1-c-r3_12.md] 'your costs would not fall' if work for the biggest customer stopped — unlabelled assumption about cost behaviour (materials are partly variable)
+T09 [it3 T09_C-v1.3-c-r1_vs_A-r1_21.md] Profit described as 'before taxes' - task says only 'before my pay' (minor unlabelled gloss)
+T09 [it3 T09_C-v1.3-c-r3_vs_A-r3_21.md] Profit assumed proportional to turnover at ~16% net margin (2027 profit 4,900; plan 5,100-5,500; test payback ~3,100) - unlabelled, ignores fixed costs such as rent and uses net instead of gross margin
+T09 [it3 T09_C-v1.3-c-r3_vs_C-v1.1-c-r3_12.md] Soft unsupported causal attribution: 'marketing can affect the other half [of the decline]' (hedged with 'can'; no basis in the task that the non-population half of the decline is marketing-addressable)
+T09 [it3 T09_C-v1.3-c-r3_vs_C-v1.1-c-r3_21.md] Causal split 'about half of the decline may simply be fewer people; the other half marketing can touch' (unsupported attribution of the non-population half of the decline to marketing-addressable causes)
+T09 [additional run T09 C-v1.3-c r2 order 12] Lease end stated as exactly 17 June 2027 (precise date not in task)
+T09 [additional run T09 C-v1.3-c r2 order 21] Exact lease end date 17 June 2027 not given in task
+T09 [additional run T09 C-v1.3-c r3 order 12] About half the decline attributed to population loss, the other half addressable by marketing (unsupported split, hedged)
+T10 [it3 T10_C-v1.3-c-r2_vs_A-r2_12.md] Calendar dates '23 October' / '23 November' assume today's date, which is not in the task (unlabelled assumption, minor)
+T10 [it3 T10_C-v1.3-c-r2_vs_A-r2_21.md] Specific calendar dates (23 October rent day, 23 November, 30 October) not in the task; they rest on an unstated assumption about today's date
+T10 [additional run T10 C-v1.3-c r2 order 12] Calendar dates '23 October' (rent), '30 October', '23 November' not given in the task
+T10 [additional run T10 C-v1.3-c r2 order 21] Calendar dates stated as fact (rent on 23 October, 30 October, 23 November) not given in the task
+
+VIOLATIONS
+
+FORBIDDEN
+T10 [additional run T10 C-v1.3-c r2 order 21] F4
+
+LOSSES 0

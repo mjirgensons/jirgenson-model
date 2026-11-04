@@ -6,7 +6,7 @@ Usage: python3 e5_j2_gemini.py --iter 2 [--pair T01_C-v1.2-c-r1_vs_C-v1.1-c-r1 -
 
 Writes j2_gemini/iter_N/:
   JUDGE_PROMPT_Gemini.md                 pasted FIRST: the judge pack without the task part (pack[:TASK] + pack[RUBRIC:])
-  DOKUMENTS_iterN_<task>_pairs_1_kartiba_<order>.md   pasted SECOND: task, key and the two anonymous responses (pack[TASK:RUBRIC])
+  DOCUMENT_iterN_<task>_pairs_1_order_<order>.md   pasted SECOND: task, key and the two anonymous responses (pack[TASK:RUBRIC])
   J2_selection_iter_N.csv                the selection for this iteration: every task (run by the fixed formula), candidate vs previous
                                          version, both orders, with the pack SHA-256 (same rule as iterations 0-1)
 The split is the same one used for iterations 0 and 1 (checked: concatenating the two parts gives the pack back exactly).
@@ -41,10 +41,10 @@ def main():
     judge, doc = pack[:t] + pack[rb:], pack[t:rb]
     assert judge[:t] + doc + judge[t:] == pack
     open(os.path.join(out, "JUDGE_PROMPT_Gemini.md"), "w", encoding="utf-8").write(
-        "# Tiesneša prompts (29c v1) — ielīmē Gemini PIRMAIS (vai kā sistēmas instrukciju). Identisks iterācijas 0 promptam.\n\n" + judge)
-    fn = f"DOKUMENTS_iter{a.iter}_{r['task_id']}_pairs_1_kartiba_{a.order}.md"
+        "# Judge prompt (29c v1) — paste into Gemini FIRST (or as the system instruction). Identical to the iteration 0 prompt.\n\n" + judge)
+    fn = f"DOCUMENT_iter{a.iter}_{r['task_id']}_pairs_1_order_{a.order}.md"
     open(os.path.join(out, fn), "w", encoding="utf-8").write(
-        f"# Dokuments vērtēšanai (iterācija {a.iter}) — ielīmē Gemini OTRAIS, tajā pašā sarunā, uzreiz pēc tiesneša prompta.\n\n" + doc.rstrip() + "\n")
+        f"# Document to judge (iteration {a.iter}) — paste into Gemini SECOND, in the same conversation, right after the judge prompt.\n\n" + doc.rstrip() + "\n")
     print(f"{len(sel)} selected packs; pair {pairid} order {a.order} -> {out}/{fn} + JUDGE_PROMPT_Gemini.md")
 
 

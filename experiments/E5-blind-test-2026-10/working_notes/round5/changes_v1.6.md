@@ -1,0 +1,22 @@
+# Draft change pack v1.6-c (after iteration 5; 2026-10-29) — **NOT GENERATED, NOT TESTED**
+
+**Base:** `02b_v1.5-c.md` (sha256 36ab059b…, 4,570 words; iter. 5: §5.4 formally met — Δ +1.71 [+0.23; +3.36] —, but in shared calls +0.86, within the noise band; invented facts 1/120; pairs 14 : 13 : 3) **or** `02b_v1.3-c.md` (the formal base under D5.4) — decision for Martin (see `comparison_iter_3_to_5.md` §6). The draft is written on v1.5-c, because all five fixes concern v1.5 rules (R1, R7, R12, R13, R8, L4), and the v1.5 gains at the level of elements and accuracy are real.
+
+**Length limit:** 4,572 words (+15 % vs v1.0). v1.5-c is already at the limit (margin 2 words); every added word requires an equally large shortening. Candidates for shortening (only duplicated text): the CL bank (CL1–CL17, ≈ 350 words — half can be shortened), the long overview in the question bank, the second sentence of `role_and_context`, two self_check points that repeat R7/R12.
+
+| ID | Source (iter. 5 error analysis) | Location | What it does | Words |
+|---|---|---|---|---|
+| **CH49** | T09 M3 11/12 missing; T08 M1 r2 (€14,000 as a task, not a question) — R1 too strict: a conclusion from the person's own numbers turned into a question | R1 | adds a sentence: *"A comparison of the person's own numbers (this force is larger than that one; this figure is below that line) is shown arithmetic — say it as a statement, with the two numbers. A check is for what the numbers do not contain."* | +32 |
+| **CH50** | T08 M1/M3 (2/6) — an unknown number that changes the decision becomes a "find out" task | R7 / question line | *"An unknown number that would change the decision is a question to the person, not a task on the list."* | +18 |
+| **CH51** | T05 3/3 lost — "danger" = "one weak month", which the person's own numbers refute; the shock that the reserve cannot absorb is not named; the riskiest assumption is not named | R12 | *"The danger is the one event (illness, loss of the key person, the payer leaving) whose monthly cost the reserve cannot cover — name it with the amount and the months it leaves. If the reply carries a forecast, name the one assumption whose error changes it most."* | +45 |
+| **CH52** | T07 r1/r3, T10 r1 — one checkpoint after 2 months; trigger too late | R13 | *"A path longer than two months has a numbered checkpoint every month, the first within four weeks; a trigger that protects a fixed payment fires with margin before the payment day."* | +34 |
+| **CH53** | T06 r1 — payback without materials ("flattering exactly the numbers the person wanted guaranteed"); T01 r2 — data contradiction not noticed | R8 | *"Payback is computed from profit after every variable cost the person named; a cost they did not give is a labelled assumption, never an omission. If the person's own lines do not add up (a cost with no line), say so first."* | +40 |
+| **CH54** | T03 r2 vs A: "With your hours, three to five can get real work this year" flagged as an invented fact — the number in the L4 example still leaks into the response after CH18 | L4 | example without a number: *"keep the goals the person's own hours can carry and say which; the rest wait"* | −6 |
+| CH55 | T04 M7 6/12 — the environment check is in step 8, but not in the self-check | self_check | line: *"the market-wide version of the force was asked about"* | +9 |
+| CH56 | length compensation | CL bank, long overview, self_check duplicates | shortenings ≈ −175 | −175 |
+
+**Net:** ≈ 0 (limit respected). Canon unchanged. Examples kept.
+
+**Forecast (if tested):** T09 M3 back to ≤ 2/12; T04 M7 ≤ 3/12; T05 pairs ≥ 1 win; invented facts stay ≤ 0.02; Δ vs v1.5-c in shared calls +0.5…+1.5 (below the noise band — with the 10 × 3 design an improvement in the overall score most likely cannot be proven; the measurable gain will be at the element level). If the §5 recommendation is adopted (6 replicates, the shared-calls measure as the primary one), the band shrinks to ≈ ±1.1. **Risk:** CH49 may reopen the way back to unlabelled conclusions — that is why the wording requires both numbers in the sentence.
+
+**Alternative for the design (decision for Martin):** if the goal is to prove an improvement in the overall score, not an improvement in elements, it is the design that must be changed (more replicates or hold-out H01–H10), not the prompt — iter. 3 and 5 both show a ceiling effect (elements 95–96 %, violations 0, judge confidence in lost pairs 0.55–0.70).

@@ -534,8 +534,8 @@ def make_panel(d, it):
     except Exception:
         font = ImageFont.load_default()
     missing = [n.split("_")[0] for n in names if n not in present]
-    dr.text((pad, 25), f"E5 — Iterācija {it}: standarta attēlu komplekts ({', '.join(n.split('_')[0] for n in present)}"
-            + (f"; {', '.join(missing)} parādās ar hold-out / modeļu datiem)" if missing else ")"), fill="black", font=font)
+    dr.text((pad, 25), f"E5 — Iteration {it}: standard figure set ({', '.join(n.split('_')[0] for n in present)}"
+            + (f"; {', '.join(missing)} appear with hold-out / model data)" if missing else ")"), fill="black", font=font)
     for k, im in enumerate(ims):
         r, c = divmod(k, cols); panel.paste(im, (pad + c * (w + pad), th + pad + r * (h + pad)))
     out = os.path.join(d, f"panel_iter_{it}.png"); panel.save(out, optimize=True); print("panel ->", out, panel.size)

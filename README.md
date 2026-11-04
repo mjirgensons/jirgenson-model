@@ -30,8 +30,10 @@ Canon v1.0 and prompt v1.1 (edition 1.1 of the book, 18 October 2026; tested in 
 
 ## Experiment
 
-`experiments/E5-blind-test-2026-10/` holds a blind test of the operating prompt on ten small-business crisis scenarios: the scenarios and answer key, the exact prompt as tested, every raw answer, every judge record, the scores, the scripts and the limits. Start with `STUDY.md` in that folder. The prompt tested there (v1.3-c) differs from the published v1.1 in three places only, listed in `STUDY.md`.
+**E5, a blind test of the operating prompt** on ten small-business crisis scenarios: the canon plus the operating prompt scored 88.8 out of 100 against 56.2 for the same model without a prompt, and answers with an invented fact fell from 7 in 10 to 1 in 120. The full record (scenarios and answer key, every prompt version tested, all 240 answers, all 600 blind judge records, scripts, figures and limits) is archived on Zenodo with a permanent DOI: [10.5281/zenodo.23964934](https://doi.org/10.5281/zenodo.23964934). A copy without the bulky input packs is in `experiments/E5-blind-test-2026-10/`; start with `STUDY.md` there. The book's prompt v1.1 corresponds to the tested version v1.3-c (three small differences, listed in `STUDY.md`); the results above are for the latest tested version, v1.5-c.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23964934.svg)](https://doi.org/10.5281/zenodo.23964934)
 
 ## Licence
 
-CC BY-ND 4.0, see `LICENSE`. © Martin Jirgenson, 2026. This is not financial, legal or investment advice.
+CC BY-ND 4.0, see `LICENSE`. The experiment folder has its own licence file (`experiments/E5-blind-test-2026-10/LICENSE.md`: data and documentation CC BY 4.0, scripts MIT, canon and prompts CC BY-ND 4.0). © Martin Jirgenson, 2026. This is not financial, legal or investment advice.

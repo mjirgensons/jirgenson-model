@@ -292,14 +292,14 @@ Coverage matrix (what each task tests):
 
 ---
 
-## T09 — Preses kiosks mazpilsētā (QUICK, LV)
+## T09 — Newspaper kiosk in a small town (QUICK, LV)
 
-**Budget:** QUICK, ≤600 vārdi, ≤3 jautājumi. Atbilde latviski.
+**Budget:** QUICK, ≤600 words, ≤3 questions. Answer in Latvian.
 **Trap:** the request is for a +30 % marketing plan; the data show a shrinking town and three years of decline; the lease expiry in 8 months is the decision point; the cost of a wrong exit is low.
 
 **User message (verbatim):**
 
-> Man ir preses un loterijas kiosks mazpilsētā (ap 6 000 iedzīvotāju; pirms pieciem gadiem bija ap 8 000, lielākā rūpnīca slēgta 2023. gadā). Apgrozījums: 2023. gadā 48 000 €, 2024. gadā 42 000 €, 2025. gadā 37 000 €; 2026. gada pirmajos deviņos mēnešos 25 000 €. Peļņa pērn apmēram 6 000 € pirms manas algas; es strādāju kioskā 55 stundas nedēļā. Nomas līgums beidzas pēc 8 mēnešiem. Uzkrājums 4 000 €. Gribu mārketinga plānu, lai nākamgad apgrozījumu palielinātu par 30 %. Kā to izdarīt?
+> I have a newspaper and lottery kiosk in a small town (about 6,000 residents; five years ago there were about 8,000, the largest factory closed in 2023). Turnover: €48,000 in 2023, €42,000 in 2024, €37,000 in 2025; €25,000 in the first nine months of 2026. Profit last year about €6,000 before my salary; I work in the kiosk 55 hours a week. The lease ends in 8 months. Savings €4,000. I want a marketing plan to increase turnover by 30% next year. How do I do it?
 
 **Gold facts (judge recomputes):**
 - Decline: 48,000 → 42,000 (**−12.5 %**), 42,000 → 37,000 (**−11.9 %**); 2026 run-rate 25,000 / 9 × 12 ≈ **33,300** (**≈ −10 %**). Sustained decline over 3+ periods; population −25 % in five years.
@@ -309,7 +309,7 @@ Coverage matrix (what each task tests):
 - Environment check (offset c): sustained decline, shrinking population, is there any niche where the economics converge (parcel pick-up point, coffee, services, other formats)? Unknown → questions.
 
 **Mandatory elements:**
-- M1 Atbild latviski, ikdienas vārdiem (bez "vektors", "parametrs", "zona", "manevrs", ja lietotājs tos nelieto). *Why:* L1.
+- M1 Answers in Latvian, in everyday words (without "vector", "parameter", "zone", "manoeuvre", unless the user uses them). *Why:* L1.
 - M2 Computes the trend (≈ −10…−12 % a year) and the 2026 full-year estimate (≈ 33,000). *Why:* R2.
 - M3 Names the shrinking environment (town, sustained decline) as the strongest force, stronger than the owner's means, and says that marketing alone is unlikely to reverse it. *Why:* §16.6, §10.1, offset (c).
 - M4 Does not deliver a generic +30 % marketing plan as the main answer; shows what +30 % would require (reversing three years of decline against a shrinking population). *Why:* the request contradicts the data.
@@ -326,14 +326,14 @@ Coverage matrix (what each task tests):
 
 ---
 
-## T10 — Фрилансер: клиент не платит, аренда через 6 дней (EMERGENCY, RU)
+## T10 — Freelancer: the client does not pay, rent due in 6 days (EMERGENCY, RU)
 
-**Budget:** EMERGENCY: ≤300 слов, ≤2 вопроса, первая строка = одно действие на сегодня. Ответ по-русски.
+**Budget:** EMERGENCY: ≤300 words, ≤2 questions, first line = one action for today. Answer in Russian.
 **Trap:** the cheap reversible lever (credit line) is available; the first action is a written demand with a date plus a prepared fallback; the larger danger is the client's possible default (3.5 months of rent).
 
 **User message (verbatim):**
 
-> Срочно. Я фрилансер, IT-подрядчик. Главный клиент задерживает оплату двух счетов на 3 800 € уже 30 дней и не отвечает на письма. Аренда 1 100 € через 6 дней. На счёте 450 €. Есть неиспользованная кредитная линия 2 000 € под 12 % годовых. Жена работает, на еду и детей хватает. Детей двое. Что мне делать сегодня?
+> Urgent. I am a freelancer, an IT contractor. My main client has been delaying payment of two invoices for €3,800 for 30 days already and does not answer my emails. Rent of €1,100 is due in 6 days. In the account I have €450. There is an unused credit line of €2,000 at 12% a year. My wife works; there is enough for food and the children. We have two children. What should I do today?
 
 **Gold facts (judge recomputes):**
 - Shortfall for rent: 1,100 − 450 = **€650**. The credit line covers it; interest ≈ 650 × 12 % / 12 ≈ **€6.5 per month**: cheap, fast, reversible.

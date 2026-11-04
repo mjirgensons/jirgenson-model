@@ -1,0 +1,51 @@
+E5 acceptance check — iteration 5: C:v1.5-c (test) vs C:v1.3-c (base) and vs A; rows in iteration: 240
+judgments per condition: C:v1.5-c=120, A=60, C:v1.3-c=60
+
+== ALL judgments (per-task means over runs and orders) ==
+  C:v1.5-c: mean total 88.76
+  C:v1.3-c: mean total 87.05
+  A: mean total 56.25
+  Δ test−base (task means): +1.71 [+0.23; +3.36]  tasks +/−: 6/3  Wilcoxon p = 0.129
+  per task: {'T01': 0.0, 'T02': 1.42, 'T03': -0.58, 'T04': 4.42, 'T05': -1.45, 'T06': 0.42, 'T07': -0.33, 'T08': 6.17, 'T09': 1.58, 'T10': 5.5}
+  Δ test−A: +32.52 [+26.58; +38.54]  tasks +/−: 10/0
+  per task: {'T01': 23.33, 'T02': 42.42, 'T03': 27.42, 'T04': 50.92, 'T05': 31.25, 'T06': 34.92, 'T07': 22.17, 'T08': 36.33, 'T09': 17.58, 'T10': 38.83}
+
+== Criteria / violations / invented facts / elements (all judgments) test / base / diff ==
+  C1               8.692   8.233 +0.458
+  C2               8.017   7.900 +0.117
+  C3               8.258   7.717 +0.542
+  C4               8.383   8.600 -0.217
+  C5               8.267   8.117 +0.150
+  C6               8.467   8.517 -0.050
+  violations       0.000   0.017 -0.017
+  invented_facts   0.008   0.217 -0.208
+  elements_pct     0.967   0.950 +0.017
+  word_count     454.358 461.217 -6.858
+  invented facts per response (test): 0.008 over 120 judgments; judgments with ≥1 invented fact: 1
+  invented facts per response (base): 0.217; (ctrl): 1.700
+
+== SAME-CALL robustness (120 rows = 30 pairs × 2 orders; test and base scored in the same judge call) ==
+  test 87.91 base 87.05  Δ +0.86 [-0.66; +2.43]  tasks +/−: 6/4
+  per task: {'T01': -0.5, 'T02': 2.0, 'T03': -2.5, 'T04': 4.0, 'T05': -2.41, 'T06': 0.17, 'T07': -1.33, 'T08': 4.5, 'T09': 0.67, 'T10': 4.0}
+  C1             same-call diff +0.350
+  C2             same-call diff +0.000
+  C3             same-call diff +0.550
+  C4             same-call diff -0.033
+  C5             same-call diff -0.133
+  C6             same-call diff -0.317
+  violations     same-call diff -0.017
+  invented_facts same-call diff -0.217
+  violations per response, same calls: test 0.000 base 0.017 (rise -0.017)
+
+== Pairwise preference (a win needs the same side in BOTH orders) ==
+  vs C:v1.3-c: pairs 30: test wins 14, base wins 13, split/tie 3; sign test (wins vs losses) p = 1.0000
+  non-wins: {'T01_C-v1.5-c-r1_vs_C-v1.3-c-r1': ['C:v1.3-c', 'C:v1.3-c'], 'T01_C-v1.5-c-r2_vs_C-v1.3-c-r2': ['C:v1.3-c', 'C:v1.3-c'], 'T02_C-v1.5-c-r2_vs_C-v1.3-c-r2': ['C:v1.3-c', 'C:v1.3-c'], 'T03_C-v1.5-c-r1_vs_C-v1.3-c-r1': ['C:v1.3-c', 'C:v1.3-c'], 'T03_C-v1.5-c-r3_vs_C-v1.3-c-r3': ['C:v1.3-c', 'C:v1.3-c'], 'T04_C-v1.5-c-r2_vs_C-v1.3-c-r2': ['C:v1.3-c', 'C:v1.3-c'], 'T05_C-v1.5-c-r1_vs_C-v1.3-c-r1': ['C:v1.3-c', 'C:v1.3-c'], 'T05_C-v1.5-c-r2_vs_C-v1.3-c-r2': ['C:v1.3-c', 'C:v1.3-c'], 'T05_C-v1.5-c-r3_vs_C-v1.3-c-r3': ['C:v1.3-c', 'C:v1.3-c'], 'T06_C-v1.5-c-r1_vs_C-v1.3-c-r1': ['C:v1.3-c', 'C:v1.3-c'], 'T07_C-v1.5-c-r1_vs_C-v1.3-c-r1': ['C:v1.3-c', 'C:v1.3-c'], 'T07_C-v1.5-c-r3_vs_C-v1.3-c-r3': ['C:v1.3-c', 'C:v1.3-c'], 'T08_C-v1.5-c-r1_vs_C-v1.3-c-r1': ['C:v1.5-c', 'C:v1.3-c'], 'T08_C-v1.5-c-r2_vs_C-v1.3-c-r2': ['C:v1.5-c', 'C:v1.3-c'], 'T09_C-v1.5-c-r1_vs_C-v1.3-c-r1': ['C:v1.3-c', 'C:v1.3-c'], 'T10_C-v1.5-c-r1_vs_C-v1.3-c-r1': ['C:v1.3-c', 'C:v1.5-c']}
+  vs A: pairs 30: test wins 30, A wins 0, split/tie 0
+  non-wins: {}
+
+== Pre-registered rule (§5.4 / D5.4) ==
+  (1) Δ +1.71 > 1.51 and CI low +0.23 > -1.0: ✓
+  (2) no criterion drops > 1.0: worst C4 -0.22: ✓
+  (3) violations not rising (same calls, one-to-one): -0.017: ✓
+  (4) prompt length +14.9 % vs v1.0 ≤ +15 %: ✓
+  VERDICT: IMPROVEMENT — all four criteria met; new version becomes the base.

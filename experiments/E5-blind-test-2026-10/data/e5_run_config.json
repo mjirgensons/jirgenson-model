@@ -1,0 +1,52 @@
+[
+ {
+  "iteration": 0,
+  "judgments_dir": "judgments/round0",
+  "judge": "opus-5.5",
+  "generator": "claude-sonnet-5.5",
+  "judge_index": "inputs/round0/judge_index.csv",
+  "frozen_results": "data/round0/e5_results_iter_0_snapshot.csv",
+  "frozen_pairwise": "data/round0/e5_pairwise_iter_0_snapshot.csv",
+  "note": "120/120 judgments; 111 raw judgment texts archived in bundles/judgments_iter_0.md; 9 raw texts (T09 r5 21, T09 r6 12/21, T10 r4-6 12/21 vs B) lost in the 07:41-10:09 context reset before re-upload; their parsed values survive in this frozen snapshot (written 07:12)."
+ },
+ {
+  "iteration": 1,
+  "judgments_dir": "judgments/round1",
+  "judge": "opus-5.5",
+  "generator": "claude-sonnet-5.5",
+  "judge_index": "inputs/round1/judge_index.csv",
+  "frozen_results": "data/round1/e5_results_iter_1_snapshot.csv",
+  "frozen_pairwise": "data/round1/e5_pairwise_iter_1_snapshot.csv",
+  "note": "120/120 judgments (C-v1.1-c r1-3 vs A r1-3 [iter 0] and vs C-v1.0 r1-3 [iter 0 block 1], both orders). All 120 raw judgment texts archived ([local archive]\\iter_1\\judgments). Frozen 2026-10-16 21:30 Toronto after analysis run figures/iter_1."
+ },
+ {
+  "iteration": 2,
+  "judgments_dir": "judgments/round2",
+  "judge": "opus-5.5",
+  "generator": "claude-sonnet-5.5",
+  "judge_index": "inputs/round2/judge_index.csv",
+  "frozen_results": "data/round2/e5_results_iter_2_snapshot.csv",
+  "frozen_pairwise": "data/round2/e5_pairwise_iter_2_snapshot.csv",
+  "note": "120/120 judgments (C-v1.2-c r1-3 vs A r1-3 [iter 0] and vs C-v1.1-c r1-3 [iter 1], both orders); orchestrator Opus 5.5; frozen 2026-10-17 03:02 UTC (corrected 2026-10-17: 04:35 was an estimated time; see run-log timestamp correction 03:11)."
+ },
+ {
+  "iteration": 3,
+  "judgments_dir": "judgments/round3",
+  "judge": "opus-5.5",
+  "generator": "claude-sonnet-5.5",
+  "judge_index": "inputs/round3/judge_index.csv",
+  "note": "120/120 judgments (C-v1.3-c r1-3 vs A r1-3 [iter 0] and vs C-v1.1-c r1-3 [iter 1, base = last accepted version], both orders); orchestrator Opus 5.5; judging 2026-10-17 06:22-11:27 UTC and 2026-10-18 14:33-14:48 UTC (Opus 429 pause in between); frozen 2026-10-18 14:49 UTC.",
+  "frozen_results": "data/round3/e5_results_iter_3_snapshot.csv",
+  "frozen_pairwise": "data/round3/e5_pairwise_iter_3_snapshot.csv"
+ },
+ {
+  "iteration": 5,
+  "judgments_dir": "judgments/round5",
+  "judge": "opus-5.5",
+  "generator": "claude-sonnet-5.5",
+  "judge_index": "inputs/round5/judge_index.csv",
+  "note": "Optimisation line iteration 5. 120 judgments (C-v1.5-c r1-3 [v1.3-c + changes_v1.5.json, 41 replacements, 4570 words] vs C-v1.3-c r1-3 [iter 3, last accepted, re-judged] and vs A r1-3 [iter 0], both orders); orchestrator Claude Fable 5.1 (switched 2026-10-28 by Martin); generation 2026-10-28 22:0x-22:31 UTC; judging from 2026-10-28 22:3x UTC; API 429 monthly-limit pause ~02:3x-03:35 UTC 2026-10-29 (5 T08 agents had written files -> used, D1.5). Judging finished 2026-10-29 04:19 UTC; frozen 2026-10-29 04:2x UTC after analysis run figures/iter_5.",
+  "frozen_results": "data/round5/e5_results_iter_5_snapshot.csv",
+  "frozen_pairwise": "data/round5/e5_pairwise_iter_5_snapshot.csv"
+ }
+]

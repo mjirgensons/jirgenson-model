@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this record, please cite it as below."
+type: dataset
+title: "E5: a blind test and stepwise optimisation of the Jirgenson Model operating prompt on ten small-business crisis scenarios"
+version: "1.0"
+doi: "10.5281/zenodo.23964934"
+date-released: 2026-11-04
+authors:
+  - family-names: Jirgenson
+    given-names: Martin
+    website: "https://mjirgensons.github.io/"
+repository: "https://github.com/mjirgensons/jirgenson-model"
+url: "https://mjirgensons.github.io/"
+keywords:
+  - large language models
+  - hallucination
+  - prompt engineering
+  - LLM-as-a-judge
+  - small business
+  - decision making
+  - management
+license:
+  - CC-BY-4.0
+  - CC-BY-ND-4.0
+  - MIT
+references:
+  - type: book
+    title: "Steer, Don't Guess. Setting Priorities, Reading the Numbers and Correcting Course in Business and Life. The Jirgenson Model"
+    authors:
+      - family-names: Jirgenson
+        given-names: Martin
+    year: 2026
+    isbn: "979-8-1648-3374-9"

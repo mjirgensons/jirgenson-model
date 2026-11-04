@@ -1,0 +1,19 @@
+E5 iteration 5 — judging-context check (written 2026-10-29): is the 'all judgments' Δ inflated by the vs-A calls?
+Each test version is judged in 60 vs-A calls and 60 vs-base calls; the re-judged base only in the 60 vs-base calls.
+If a C response scores higher when it sits next to a weak A response, the all-judgments Δ carries ≈ half of that effect.
+
+test version: per-task mean total in vs-A calls vs in vs-other-C calls (same 30 responses)
+  iter 1 C:v1.1-c   vsA 87.57  vsOtherC 84.87  context effect +2.70
+  iter 2 C:v1.2-c   vsA 83.05  vsOtherC 81.95  context effect +1.11
+  iter 3 C:v1.3-c   vsA 89.82  vsOtherC 87.95  context effect +1.87
+  iter 5 C:v1.5-c   vsA 89.62  vsOtherC 87.91  context effect +1.71
+
+Three views of v1.5-c − v1.3-c:
+  (a) pre-registered primary (all iter-5 judgments; test 120 mixed, base 60 vs-C): +1.71
+  (b) same-call only (60 calls, both versions in each call):                      +0.86
+  (c) symmetric mixed-context, across iterations (v1.5-c iter 5, 120 j. vs v1.3-c iter 3, 120 j.): -0.12  (judge drift between iterations: v1.3-c 88.9 → 87.1 in vs-C calls only)
+
+Same check for iteration 3 (v1.3-c − v1.1-c): primary +4.38, same-call +3.45 — both above the 1.51 band, so the bias did not change that verdict.
+
+Reading: the primary measure (a) is biased upward by the context effect (≈ +0.9 for v1.5-c); (b) is unbiased but has 60 calls of power; (c) mixes judge drift in.
+All three agree that the total-score gain of v1.5-c is small (−0.1 … +1.7) and not robust; the precision gains (invented facts, violations, target elements) do not depend on context.
