@@ -1,0 +1,104 @@
+scenario,answer,judge_record,invented_fact_as_listed_by_judge
+T01,A-r1,T01_C-v1.5-c-r1_vs_A-r1_12,Banks say yes much more easily while your account is healthy (general rule stated as fact)
+T01,A-r1,T01_C-v1.5-c-r1_vs_A-r1_12,"Rentals have more wear, battery and insurance cost (cost claim stated as fact)"
+T01,A-r1,T01_C-v1.5-c-r1_vs_A-r1_21,Banks say yes much more easily while your account is healthy and October profit is still coming in (general lending rule stated as fact)
+T01,A-r3,T01_C-v1.5-c-r3_vs_A-r3_12,Supplier lead time presented as fact: 'You need to decide around January or February to be ready for April' (not given in task; minor)
+T02,A-r1,T02_C-v1.5-c-r1_vs_A-r1_12,"Wages are legally protected, so you can't just delay them (jurisdiction-specific legal rule asserted as fact)"
+T02,A-r1,T02_C-v1.5-c-r1_vs_A-r1_12,Rough rule of more than about four hours above 4C for high-risk food (outside food-safety rule not in task)
+T02,A-r1,T02_C-v1.5-c-r1_vs_A-r1_12,People usually agree to a short delay when they hear it early and get a firm date (behavioural generalisation stated as fact)
+T02,A-r1,T02_C-v1.5-c-r1_vs_A-r1_21,"Wages are legally protected, so you can't just delay them (legal rule stated as fact, only partly hedged later)"
+T02,A-r1,T02_C-v1.5-c-r1_vs_A-r1_21,Rough rule: high-risk food above 4C for more than about four hours should not be served (outside food-safety rule not in the task)
+T02,A-r1,T02_C-v1.5-c-r1_vs_A-r1_21,People usually agree to a short delay when they hear it early and get a firm date (generalisation stated as fact)
+T02,A-r2,T02_C-v1.5-c-r2_vs_A-r2_12,"'part of that deposit will have to buy wedding ingredients' stated as fact, not in the task (unlabelled assumption)"
+T02,A-r2,T02_C-v1.5-c-r2_vs_A-r2_21,"Part of the wedding deposit will have to buy wedding ingredients (stated as fact, not in task, not labelled as assumption)"
+T02,A-r3,T02_C-v1.5-c-r3_vs_A-r3_12,Many firms agree to split/defer the balance if you ask before the job
+T02,A-r3,T02_C-v1.5-c-r3_vs_A-r3_12,A bank transfer is instant
+T02,A-r3,T02_C-v1.5-c-r3_vs_A-r3_21,'Many firms agree to this [splitting/deferring the balance] if you ask before the job' stated as fact
+T02,A-r3,T02_C-v1.5-c-r3_vs_A-r3_21,'A bank transfer is instant' stated as fact
+T03,A-r3,T03_C-v1.5-c-r3_vs_A-r3_21,"Unlabelled assumption stated as fact: teachers, second room and app 'all add fixed cost' / second room 'adds rent'"
+T05,A-r1,T05_C-v1.5-c-r1_vs_A-r1_12,No-shows are usually concentrated in a few clients (general claim stated as fact)
+T05,A-r1,T05_C-v1.5-c-r1_vs_A-r1_12,A payment link takes about an hour to set up
+T05,A-r1,T05_C-v1.5-c-r1_vs_A-r1_12,"One illness or a broken dryer would use most of the EUR2,500 reserve (cost not in task)"
+T05,A-r1,T05_C-v1.5-c-r1_vs_A-r1_21,A payment link takes about an hour to set up
+T05,A-r1,T05_C-v1.5-c-r1_vs_A-r1_21,No-shows are usually concentrated in a few clients
+T05,A-r2,T05_C-v1.5-c-r2_vs_A-r2_12,Grooming runs on a 4-8 week cycle (industry norm stated as fact)
+T05,A-r2,T05_C-v1.5-c-r2_vs_A-r2_12,Most online booking apps can do this (product claim not in task)
+T05,A-r2,T05_C-v1.5-c-r2_vs_A-r2_12,The ones who leave over EUR 10 are usually the ones who don't show up (behavioural generalisation as fact)
+T05,A-r2,T05_C-v1.5-c-r2_vs_A-r2_12,"Your costs are mostly fixed, so almost everything you recover is profit (unlabelled cost-structure assumption)"
+T05,A-r2,T05_C-v1.5-c-r2_vs_A-r2_21,Grooming runs on a 4-8 week cycle (industry norm stated as fact)
+T05,A-r2,T05_C-v1.5-c-r2_vs_A-r2_21,"Your costs are mostly fixed, so almost everything you recover is profit (cost structure not in task, unlabelled)"
+T05,A-r2,T05_C-v1.5-c-r2_vs_A-r2_21,The ones who leave over EUR 10 are usually the ones who don't show up (unsupported behavioural claim)
+T05,A-r2,T05_C-v1.5-c-r2_vs_A-r2_21,Most online booking apps can do this (general product claim not in task)
+T05,A-r3,T05_C-v1.5-c-r3_vs_A-r3_12,'well below what you'd earn employed elsewhere' (no wage data or location given)
+T05,A-r3,T05_C-v1.5-c-r3_vs_A-r3_12,'A few repeat clients often cause most of them' (unsupported pattern presented as fact)
+T05,A-r3,T05_C-v1.5-c-r3_vs_A-r3_12,'Most booking tools can do this' (minor unsupported claim)
+T05,A-r3,T05_C-v1.5-c-r3_vs_A-r3_21,A few repeat clients often cause most of the no-shows (pattern stated as fact)
+T05,A-r3,T05_C-v1.5-c-r3_vs_A-r3_21,Owner's pay is well below what they'd earn employed elsewhere (unsupported comparison)
+T05,A-r3,T05_C-v1.5-c-r3_vs_A-r3_21,Most booking tools can do this (general claim stated as fact)
+T06,A-r2,T06_C-v1.5-c-r2_vs_A-r2_12,"Employer taxes on top of EUR 1,600 gross pay add roughly EUR 640 to EUR 1,100 a month depending on country"
+T06,A-r2,T06_C-v1.5-c-r2_vs_A-r2_21,"Employer taxes on top of gross pay add roughly EUR 640 to 1,100 a month depending on country"
+T07,A-r1,T07_C-v1.5-c-r1_vs_A-r1_12,"A helmet usually costs another €30 to €50 (price not in task, stated as fact)"
+T07,A-r1,T07_C-v1.5-c-r1_vs_A-r1_21,"A helmet usually costs another EUR 30 to EUR 50 (price not in task, stated as fact)"
+T07,A-r2,T07_C-v1.5-c-r2_vs_A-r2_12,"Helmet roughly €30–50 and lock roughly €15–25 (prices not in the task, unlabelled)"
+T07,A-r2,T07_C-v1.5-c-r2_vs_A-r2_12,A good used scooter around €380 (unsupported price/quality claim)
+T07,A-r2,T07_C-v1.5-c-r2_vs_A-r2_12,Plenty of parents will chip in or match (unsupported generalisation)
+T07,A-r2,T07_C-v1.5-c-r2_vs_A-r2_21,Helmet price roughly €30–50 and lock roughly €15–25 presented as fact
+T07,A-r2,T07_C-v1.5-c-r2_vs_A-r2_21,A good used scooter around €380 asserted as available
+T07,A-r2,T07_C-v1.5-c-r2_vs_A-r2_21,'Plenty of parents will' chip in or match savings
+T07,A-r3,T07_C-v1.5-c-r3_vs_A-r3_12,A helmet isn't included in the EUR 450 (stated as fact; task does not say what the price includes)
+T07,A-r3,T07_C-v1.5-c-r3_vs_A-r3_12,"E-scooter rules at 15 are different in every country (general background stated as fact; broadly true but overstated, minor)"
+T07,A-r3,T07_C-v1.5-c-r3_vs_A-r3_21,A helmet isn't included in the €450 (stated as fact; the task does not say what the price includes)
+T07,A-r3,T07_C-v1.5-c-r3_vs_A-r3_21,"E-scooter rules at 15 are different in every country (general claim stated as fact, overstated)"
+T08,A-r1,T08_C-v1.5-c-r1_vs_A-r1_12,Receivables are 'mostly your biggest customer's' (unlabelled inference; split not given in task)
+T08,A-r1,T08_C-v1.5-c-r1_vs_A-r1_12,"'In the EU, late B2B payments legally carry interest and a fixed fee' (external legal rule stated as fact; accurate and hedged, country not given)"
+T08,A-r1,T08_C-v1.5-c-r1_vs_A-r1_12,'Mentioning that in reminders often speeds things up' (unsupported effectiveness claim)
+T08,A-r1,T08_C-v1.5-c-r1_vs_A-r1_21,"In the EU, late B2B payments legally carry interest and a fixed fee (legal rule not in the task, presented as fact; hedged and broadly accurate)"
+T08,A-r2,T08_C-v1.5-c-r2_vs_A-r2_12,"EU B2B statutory late-payment interest and ~EUR 40 fixed fee presented as a rule (external, hedged)"
+T08,A-r2,T08_C-v1.5-c-r2_vs_A-r2_12,"'It's a timing problem, not a loss problem' asserted as fact despite the unexplained EUR 14,000"
+T08,A-r2,T08_C-v1.5-c-r2_vs_A-r2_21,"EU B2B statutory late-payment interest plus ~EUR 40 fixed fee (external rule stated as fact, hedged 'check the rules in your country')"
+T08,A-r2,T08_C-v1.5-c-r2_vs_A-r2_21,"'It's a timing problem, not a loss problem' asserted as fact although the EUR 14,000 gap is unexplained by the response's own analysis"
+T08,A-r3,T08_C-v1.5-c-r3_vs_A-r3_12,"EU rule that businesses can usually claim interest and a fixed recovery fee on late B2B payments (hedged, not in task)"
+T08,A-r3,T08_C-v1.5-c-r3_vs_A-r3_12,Depreciation makes the gap slightly bigger (asserted about the owner's figures without data)
+T08,A-r3,T08_C-v1.5-c-r3_vs_A-r3_12,"13-week forecast takes an hour or two (unsupported estimate, minor)"
+T08,A-r3,T08_C-v1.5-c-r3_vs_A-r3_21,"EU late-payment rule: businesses can usually claim interest and a fixed recovery fee on late B2B payments (external rule, hedged)"
+T08,A-r3,T08_C-v1.5-c-r3_vs_A-r3_21,"Depreciation makes the gap slightly bigger (asserts depreciation in this business's profit, not in task)"
+T09,A-r1,T09_C-v1.5-c-r1_vs_A-r1_12,Minimum wage ~4.5 EUR/h gross stated as fact
+T09,A-r1,T09_C-v1.5-c-r1_vs_A-r1_12,Full-time minimum wage ~780 EUR/month gross stated as fact
+T09,A-r1,T09_C-v1.5-c-r1_vs_A-r1_12,"Press is the main product and is shrinking nationwide, stated as fact"
+T09,A-r1,T09_C-v1.5-c-r1_vs_A-r1_12,"Decline caused by the town, not by the owner, stated as certain cause"
+T09,A-r1,T09_C-v1.5-c-r1_vs_A-r1_21,Minimum wage ~4.5 EUR/h gross (unlabelled external figure)
+T09,A-r1,T09_C-v1.5-c-r1_vs_A-r1_21,Full-time minimum wage ~780 EUR/month gross (unlabelled external figure)
+T09,A-r1,T09_C-v1.5-c-r1_vs_A-r1_21,Press as a product is shrinking nationwide (unlabelled external claim)
+T09,A-r1,T09_C-v1.5-c-r1_vs_A-r1_21,Landlord has few alternative tenants in a shrinking town (presented as fact)
+T09,A-r2,T09_C-v1.5-c-r2_vs_A-r2_12,"'people already know the kiosk exists' presented as the cause why advertising lifts press/lottery demand little (unsupported causal claim, minor)"
+T09,A-r2,T09_C-v1.5-c-r2_vs_A-r2_12,"comparison to 'the minimum wage' as an external benchmark not in the task (true, unquantified, minor)"
+T09,A-r2,T09_C-v1.5-c-r2_vs_A-r2_21,Advertising lifts press/lottery demand little because people already know the kiosk exists (unlabelled causal claim)
+T09,A-r2,T09_C-v1.5-c-r2_vs_A-r2_21,"Even achieved, the target leaves the owner well below minimum wage (external rule not in task; correct but unlabelled)"
+T09,A-r2,T09_C-v1.5-c-r2_vs_A-r2_21,EUR 300-500 is enough for the retention tests (unlabelled cost estimate)
+T09,A-r3,T09_C-v1.5-c-r3_vs_A-r3_12,Older customers are the kiosk's most loyal customers (presented as fact)
+T09,A-r3,T09_C-v1.5-c-r3_vs_A-r3_12,"Stationery, postcards, hot drinks and snacks presented as higher-margin assortment (not established)"
+T09,A-r3,T09_C-v1.5-c-r3_vs_A-r3_12,"Cause stated as fact on a wrong comparison: revenue said to fall at 'about the same pace' as population (-30% in 3 yrs vs -25% in 5 yrs is ~2x faster), hence 'not an advertising problem'"
+T09,A-r3,T09_C-v1.5-c-r3_vs_A-r3_21,'That is close to minimum-wage level' - external reference figure not in the task
+T09,A-r3,T09_C-v1.5-c-r3_vs_A-r3_21,older customers 'who are your most loyal' stated as fact
+T09,A-r3,T09_C-v1.5-c-r3_vs_A-r3_21,"'Turnover is falling at roughly the same pace as the number of residents' - wrong (~-11%/yr vs ~-5.6%/yr), used to assert the cause as certain"
+T10,A-r1,T10_C-v1.5-c-r1_vs_A-r1_12,"EU Directive 2011/7/EU: B2B late-payment interest plus minimum 40 EUR compensation per invoice (accurate, hedged, but not in task)"
+T10,A-r1,T10_C-v1.5-c-r1_vs_A-r1_12,Simplified recovery of undisputed debts is inexpensive in many EU countries
+T10,A-r1,T10_C-v1.5-c-r1_vs_A-r1_12,Positions in the creditors' queue are lost quickly
+T10,A-r1,T10_C-v1.5-c-r1_vs_A-r1_21,"EU Directive 2011/7/EU grants B2B late-payment interest and at least 40 EUR compensation per invoice (real rule, hedged, not in task, presented as fact)"
+T10,A-r1,T10_C-v1.5-c-r1_vs_A-r1_21,Simplified collection of undisputed debts is inexpensive in many EU countries
+T10,A-r1,T10_C-v1.5-c-r1_vs_A-r1_21,Positions in the creditor queue are lost quickly
+T10,A-r2,T10_C-v1.5-c-r2_vs_A-r2_12,EU Directive 2011/7/EU gives statutory interest at ECB rate + at least 8 pp and fixed compensation from 40 EUR
+T10,A-r2,T10_C-v1.5-c-r2_vs_A-r2_12,Simplified collection (court order) after 2 weeks is cheap and possible without a lawyer in many EU countries
+T10,A-r2,T10_C-v1.5-c-r2_vs_A-r2_12,Suspension of work on late payment is usually permissible
+T10,A-r2,T10_C-v1.5-c-r2_vs_A-r2_21,"Directive 2011/7/EU: statutory interest = ECB rate + at least 8 pp and fixed compensation from 40 EUR (accurate, conditioned on EU residence, not labelled as an assumption)"
+T10,A-r2,T10_C-v1.5-c-r2_vs_A-r2_21,Simplified debt recovery (court order) is cheap and possible without a lawyer in many EU countries
+T10,A-r2,T10_C-v1.5-c-r2_vs_A-r2_21,Suspending work for late payment is usually permitted (hedged with 'usually' and 'check the contract')
+T10,A-r3,T10_C-v1.5-c-r3_vs_A-r3_12,"EU Directive 2011/7/EU late-payment interest and minimum 40 EUR compensation per invoice (accurate law, but jurisdiction not in task; partly hedged)"
+T10,A-r3,T10_C-v1.5-c-r3_vs_A-r3_12,Silence often means invoices are stuck in approval or sent to the wrong address (unlabelled cause)
+T10,A-r3,T10_C-v1.5-c-r3_vs_A-r3_12,Remaining credit line covers ~1.5 months of gap (unsupported; recomputed ~1.2 rents)
+T10,A-r3,T10_C-v1.5-c-r3_vs_A-r3_12,Many contracts allow suspension and IP transfers only after payment; a lawyer's letter often speeds payment (generalisations presented as typical)
+T10,A-r3,T10_C-v1.5-c-r3_vs_A-r3_21,EU Directive 2011/7/EU late-payment interest and minimum 40 EUR compensation per invoice stated as applicable fact (country not given in task)
+T10,A-r3,T10_C-v1.5-c-r3_vs_A-r3_21,Silence 'often means' invoices are stuck in approval or sent to the wrong address (cause not in task)
+T10,A-r3,T10_C-v1.5-c-r3_vs_A-r3_21,'Many contracts' allow suspension on late payment and transfer rights only after payment (generic claim stated as fact)
+T10,A-r3,T10_C-v1.5-c-r3_vs_A-r3_21,"Credit line remainder covers ~1.5 months of gap (unlabelled, imprecise; ~1.2 rents)"
+T03,C-v1.5-c-r2,T03_C-v1.5-c-r2_vs_A-r2_21,"'With your hours, three to five [goals] can get real work this year' - unlabelled rule of thumb; the owner's hours are not given (minor)"
