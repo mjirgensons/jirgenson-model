@@ -12,11 +12,12 @@ Companion files to the book by Martin Jirgenson, *Steer, Don't Guess. Setting Pr
 ## Files
 
 - `jirgenson_canon_v1.0_en.txt`: the canon of the model (Appendix H of the book). A compact rulebook, sections §0 to §16, canon-id JMC-1.
-- `jirgenson_prompt_v1.1_en.txt`: the operating prompt (Appendix I of the book, edition 1.1). It tells the assistant how to work with the canon. It is written in English; the assistant replies in the language you write in.
+- `jirgenson_prompt_v1.5-c_en.txt`: the operating prompt, current version. Use this one. It tells the assistant how to work with the canon. It is written in English; the assistant replies in the language you write in. This is the exact file that produced the results in the Experiment section below (byte for byte the same as `experiments/E5-blind-test-2026-10/prompt/operating_prompt_v1.5-c.md`, SHA-256 `36ab059b…a269477`).
+- `jirgenson_prompt_v1.1_en.txt`: the earlier version printed in the book (Appendix I, edition 1.1). Kept so that the book's reference stays valid; it corresponds to the tested version v1.3-c (three small differences, listed in `STUDY.md`). If you already use it, switching to v1.5-c needs nothing else: same canon, same steps.
 
 ## How to use
 
-1. Download both files (Download or Raw, then save).
+1. Download the canon and the prompt v1.5-c (Download or Raw, then save).
 2. Open a new conversation with a language model (an assistant).
 3. Attach the canon file to the message or paste its full text.
 4. Send the prompt as your first message.
@@ -26,13 +27,13 @@ Without the canon the assistant will not start and will ask for it: this is by d
 
 ## Versions
 
-Canon v1.0 and prompt v1.1 (edition 1.1 of the book, 18 October 2026; tested in Appendix J). Updates appear here under a new version number; each file states its version on its first line.
+Canon v1.0: unchanged since the book (edition 1.1, 18 October 2026) and unchanged through every round of the experiment. Prompt v1.5-c: the final round of the E5 optimisation (October 2026), current version. Prompt v1.1: the version printed in the book (edition 1.1; tested in Appendix J), kept for reference. Updates appear here under a new version number; each file states its version on its first line.
 
 ## Experiment
 
 **E5, a blind test of the operating prompt.** Same AI, same ten small-business crises, same 60 blind reviews. On its own, the judge flagged more than 100 invented facts in its answers. With the canon and the operating prompt: one, and that one was copied from an example inside the prompt. (Each answer was reviewed twice, once in each order, so both sides are counted over the same 60 reviews; every flag is listed in [`derived/invented_facts_round5.csv`](experiments/E5-blind-test-2026-10/derived/invented_facts_round5.csv).) Seven answers in ten carried something made up without the prompt; with it, one in 120. The weakest answer with the prompt (80 out of 100) beat the best answer without it (76).
 
-Check every number yourself. The full record (scenarios and answer key, every prompt version tested, all 240 answers, all 600 blind judge records, scripts, figures and limits) is archived on Zenodo with a permanent DOI: [10.5281/zenodo.23964934](https://doi.org/10.5281/zenodo.23964934), also on [Hugging Face](https://huggingface.co/datasets/SteerDontGuess/E5-jirgenson-model-blind-test) and [Kaggle](https://www.kaggle.com/datasets/martinjirgenson/e5-blind-test-jirgenson-model-ai-prompt). A copy without the bulky input packs is in `experiments/E5-blind-test-2026-10/`; start with `STUDY.md` there. The book's prompt v1.1 corresponds to the tested version v1.3-c (three small differences, listed in `STUDY.md`); the results above are for the latest tested version, v1.5-c.
+Check every number yourself. The full record (scenarios and answer key, every prompt version tested, all 240 answers, all 600 blind judge records, scripts, figures and limits) is archived on Zenodo with a permanent DOI: [10.5281/zenodo.23964934](https://doi.org/10.5281/zenodo.23964934), also on [Hugging Face](https://huggingface.co/datasets/SteerDontGuess/E5-jirgenson-model-blind-test) and [Kaggle](https://www.kaggle.com/datasets/martinjirgenson/e5-blind-test-jirgenson-model-ai-prompt). A copy without the bulky input packs is in `experiments/E5-blind-test-2026-10/`; start with `STUDY.md` there. The results above are for v1.5-c, the prompt file in this folder. The book's printed prompt v1.1 corresponds to the tested version v1.3-c (three small differences, listed in `STUDY.md`), which scored within two points of v1.5-c on the total (87.0 against 88.8 in the same round) but still left an invented fact in one answer in five (20 % against 0.8 %).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23964934.svg)](https://doi.org/10.5281/zenodo.23964934)
 
